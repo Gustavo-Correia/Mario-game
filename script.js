@@ -15,7 +15,7 @@ const loop = setInterval(() =>{
     const marioPosition = mario.offsetTop;
     
     
-    if (pipePosition < 200 && pipePosition > 120 &&  marioPosition > 291) {
+    if (pipePosition < 205 && pipePosition > 120 &&  marioPosition > 200) {
       
       pipe.style.animation = 'none';
       pipe.style.left = `${pipePosition}px`
